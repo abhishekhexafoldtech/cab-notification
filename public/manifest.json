@@ -1,0 +1,8 @@
+{
+  "name": "Los Móviles Compartir Ruta",
+  "short_name": "RTLSAS",
+  "start_url": "https://share-route.vercel.app/?serviceId=66101b7ccba0b4458f186353",
+  "display": "standalone",
+  "background_color": "#FFFFFF",
+  "theme_color": "#000000"
+}

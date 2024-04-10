@@ -1,0 +1,57 @@
+
+
+@font-face {
+  font-family: "SoraBold";
+  src: url("~@/assets/fonts/SoraBold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "SoraExtraBold";
+  src: url("~@/assets/fonts/SoraExtraBold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "SoraExtraLight";
+  src: url("~@/assets/fonts/SoraExtraLight.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "SoraLight";
+  src: url("~@/assets/fonts/SoraLight.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "SoraMedium";
+  src: url("~@/assets/fonts/SoraMedium.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "SoraRegular";
+  src: url("~@/assets/fonts/SoraRegular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "SoraSemiBold";
+  src: url("~@/assets/fonts/SoraSemiBold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "SoraThin";
+  src: url("~@/assets/fonts/SoraThin.ttf") format("truetype");
+}
+
+$soraBold: SoraBold, serif;
+$soraExtraBold: SoraExtraBold, serif;
+$soraExtraLight: SoraExtraLight, serif;
+$soraLight: SoraLight, serif;
+$soraMedium: SoraMedium, serif;
+$soraRegular: SoraRegular, serif;
+$soraSemiBold: SoraSemiBold, serif;
+$soraThin: SoraThin, serif;
+
+/******************* Typography *****************/
+$font-bold: $soraBold;
+$font-extra-bold:$soraExtraBold;
+$font-semi-bold:$soraSemiBold;
+$font-medium: $soraMedium;
+$font-regular: $soraRegular;

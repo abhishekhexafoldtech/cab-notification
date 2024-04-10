@@ -1,0 +1,37 @@
+@use '@/assets/scss/settings/colors';
+@use '@/assets/scss/settings/fonts';
+
+* {
+  box-sizing: border-box;
+  outline: none;
+}
+
+html {
+  color: $fonts;
+  font-family: $font-regular;
+  font-size: 0.938rem;
+  min-width: 22.5rem;
+  overflow: auto;
+  height: 100vh;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+
+}
+
+p {
+  margin: 0;
+  padding-bottom: 0;
+}
+
+a {
+  a:hover a:visited a:active {
+    text-decoration: none;
+  }
+}
+
+br {
+  display: none;
+}

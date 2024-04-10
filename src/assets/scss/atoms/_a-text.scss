@@ -1,0 +1,18 @@
+@use '@/assets/scss/settings/colors';
+@use '@/assets/scss/settings/fonts';
+
+
+.text-name {
+  font-family: $soraSemiBold;
+}
+.text-phone {
+  align-items: center;
+  font-size: 1.3rem;
+  font-family: $soraSemiBold;
+  padding: 0.7rem;
+}
+
+.text-security {
+  color: $blue;
+  font-family: $soraSemiBold;
+}

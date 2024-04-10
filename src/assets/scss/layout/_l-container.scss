@@ -1,0 +1,25 @@
+@use '@/assets/scss/settings/colors';
+@use '@/assets/scss/settings/fonts';
+
+.l-container {
+  display: grid;
+  grid-template-areas: 'map-route''information-card';
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr auto;
+  height: 100vh;
+  position: relative;
+  width: 100vw;
+
+  &__map {
+    display: grid;
+    grid-area:map-route;
+    height: 60vh;
+  }
+
+  &__card {
+    border-top: 0.125rem solid colors.$shadow-card;
+    display: grid;
+    grid-area:information-card;
+    height: 40vh;
+  }
+}
