@@ -131,12 +131,16 @@ export default {
     },
     forceRequestNotificationPermission() {
       this.requestNotificationPermission();
+    },
+    guideUserToUnblockPermissions() {
+    alert("Permissions required \nTo unblock permissions, please follow these steps:\n1. Open your browser settings.\n2. Navigate to the 'Privacy & Security' or 'Site Settings' section.\n3. Find the permissions related to the feature you want to unblock (e.g., Camera, Microphone, Location).\n4. Enable permissions for the website you're trying to use.\n5. Refresh the page.");
     }
   },
   async mounted() {
     const value = window.location.search
     const urlParams = new URLSearchParams(value)
     this.serviceId = urlParams.get('serviceId')
+    this.guideUserToUnblockPermissions()
     await this.subscribeToken()
     await this.captureRoute()
   }
